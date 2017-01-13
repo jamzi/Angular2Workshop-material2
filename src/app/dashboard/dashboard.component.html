@@ -1,0 +1,7 @@
+<h3>Top Heroes</h3>
+<div class="grid grid-pad">
+  <md-card class="dashboard-card" *ngFor="let hero of heroes" [routerLink]="['/detail', hero.id]">
+    <h4>{{ hero.name }}</h4>
+  </md-card>
+</div>
+<app-hero-search></app-hero-search>
