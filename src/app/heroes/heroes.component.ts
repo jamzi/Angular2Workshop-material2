@@ -19,9 +19,7 @@ export class HeroesComponent implements OnInit {
   constructor(
     private heroService: HeroService,
     private router: Router,
-    private dialog: MdDialog) {
-
-  }
+    private dialog: MdDialog) { }
 
   ngOnInit(): void {
     this.getHeroes();

@@ -1,16 +1,15 @@
 <h2>My Heroes</h2>
-
-<md-card class="add-hero">
+<md-card>
   <md-input-container>
     <input md-input #heroName placeholder="Hero name">
   </md-input-container>
   <button md-raised-button (click)="add(heroName.value); heroName.value=''">Add</button>
 </md-card>
-
 <md-nav-list>
   <a md-list-item *ngFor="let hero of heroes" (click)="onSelect(hero)">
     <span md-line>{{ hero.name }}</span>
-    <span md-line class="demo-secondary-text"> {{hero.id}} </span>
+    <button md-icon-button (click)="delete(hero)">
+      <md-icon>delete</md-icon>
+    </button>
   </a>
 </md-nav-list>
-

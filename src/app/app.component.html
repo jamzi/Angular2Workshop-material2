@@ -7,13 +7,11 @@
         <hr>
         <button md-button (click)="start.close()">CLOSE</button>
     </md-sidenav>
-    <div>
-        <md-toolbar color="primary">
-            <button md-icon-button (click)="start.open()">
-                <md-icon>menu</md-icon>
-            </button> {{ title }}
-        </md-toolbar>
-    </div>
+    <md-toolbar color="primary">
+        <button md-icon-button (click)="start.open()">
+            <md-icon>menu</md-icon>
+        </button> {{ title }}
+    </md-toolbar>
     <div class="main-content">
       <router-outlet></router-outlet>
     </div>
