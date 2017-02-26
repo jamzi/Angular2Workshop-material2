@@ -31,7 +31,7 @@ import { InMemoryDataService } from './services/in-memory-data.service';
     HttpModule,
     RoutingModule,
     InMemoryWebApiModule.forRoot(InMemoryDataService),
-    MaterialModule.forRoot()
+    MaterialModule
   ],
   providers: [HeroService],
   bootstrap: [AppComponent],
