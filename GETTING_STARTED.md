@@ -15,7 +15,7 @@ TABLE OF CONTENTS
 ## SETTING UP ANGULAR 2
 ---------------------
 * [NodeJS](https://nodejs.org/en/)
-* npm install -g angular-cli
+* npm install -g @angular/cli
 * ng new Angular2Workshop
 * cd Angular2Workshop
 * ng serve
