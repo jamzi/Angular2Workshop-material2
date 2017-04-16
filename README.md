@@ -1,4 +1,4 @@
-# Angular2 TOH - Styling our app with Material2
+# Angular TOH - Styling our app with Material2
 
 [![Build Status](https://travis-ci.org/jamzi/Angular2Workshop-material2.svg?branch=master)](https://travis-ci.org/jamzi/Angular2Workshop-material2)
 <p><a href="https://material2-angular2workshop.firebaseapp.com/">View App</a></p>
